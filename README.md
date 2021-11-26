@@ -2,6 +2,8 @@
 PHP C-extension. Provides ability to store 24 hour time values as fraction 0.0 <= f < 1.0. 
 Small extension provides a class and functions to manipulate, store and format time of day as double.
 
+This was written using PHP 8.0.  Branched versions for earlier PHP are surely possible, but not done yet.
+
 ```php
 class DayTime {
     // format flags
