@@ -1,19 +1,7 @@
-#ifdef HAVE_CONFIG_H
-#include "config.h"
-#endif
-
-#include "php.h"
-#include "php_ini.h"
-#include "ext/standard/info.h"
-#include "ext/pcre/php_pcre.h"
-#include "zend_exceptions.h"
-
-#include "Zend/zend_interfaces.h"
-#include "Zend/zend_smart_str.h"
-#include "Zend/zend_types.h"
-#include "daytime_arginfo.h"
-#include "src/daytime.h"
-#include "php_daytime.h"
+/**
+ * 
+ * to be inline included by php_daytime.c
+ */
 
 ZEND_FUNCTION(daytime_format) 
 {

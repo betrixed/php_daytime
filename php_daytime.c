@@ -23,6 +23,8 @@ zend_class_entry *zt_ce_DayTime;
 	zend_declare_class_constant_long(zt_ce_DayTime, const_name, sizeof(const_name)-1, (zend_long)value);
 
 
+#include "fn_daytime.c"
+
 PHP_METHOD(DayTime, __construct)
 {
 	zval *object = ZEND_THIS;
